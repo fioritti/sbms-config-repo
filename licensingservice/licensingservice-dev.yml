@@ -1,4 +1,4 @@
-example.property: "I AM IN THE DEV-YML-2 CONFIG"
+example.property: "I AM IN THE DEV-TESTE-UPDATE CONFIG"
 spring.jpa.database: "POSTGRESQL"
 spring.datasource.platform:  "postgres"
 spring.jpa.show-sql: "false"
