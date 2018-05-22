@@ -4,3 +4,18 @@ zuul:
   routes:
    organizationservice: /organization/**
    licensingservice: /licensing/**
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 2500
+    licensingservice:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 7000
+   
+licensingservice.ribbon.ReadTimeout: 7000
