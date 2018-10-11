@@ -19,3 +19,4 @@ hystrix:
             timeoutInMilliseconds: 7000
    
 licensingservice.ribbon.ReadTimeout: 7000
+signing.key: "345345fsdfsf5345"
